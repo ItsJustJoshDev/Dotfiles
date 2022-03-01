@@ -1,0 +1,78 @@
+/**
+ * @name Comfy - Dark Purple
+ * @author Nyria#3863
+ * @version 2.2
+ * @description Stay comfy while talking to your friends.
+ * @invite rtBQX5D3bD
+ * @source https://github.com/NYRI4/Comfy
+*/
+
+@import url('https://nyri4.github.io/Comfy/betterdiscord/main.css');
+@import url('https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css');
+@import url('https://nyri4.github.io/Comfy/betterdiscord/better-spotify.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+
+:root {
+  --mention-color-bar: #FFC107;
+  --mention-color-background: rgb(255,193,7,0.22);
+  --mention-color-hover: rgb(255,235,59,0.32);
+  --mention-color: #978B1F;
+  --unread-color: #E5D862;
+  --chat-buttons: #FFEB3B;
+  --avatar-radius: 4px;
+  --status-radius: 4px;
+  --server-radius: 4px;
+  --status-background: url('https://i.imgur.com/ODa8LKK.jpg');
+  --online: #FFEB3B;
+  --iddle: #2196F3;
+  --dnd: #F04747;
+  --offline: #747F8D;
+  --streaming: #593695;
+  --spotify-color: #1EDC62;
+  --user-buttons-spacing: 4px;
+  --user-buttons-color: #FFEB3B;
+  --role-circle: 0px;
+  --discord-logo: block;
+  --colored-emoji: grayscale(0%);
+  --disable-animations: 2s channel-unread infinite;
+}
+
+.theme-dark {
+  --background-primary: #1F2022;
+  --background-secondary: #1F2024;
+  --background-secondary-alt: #252527;
+  --background-tertiary: #171418;
+  --background-mobile-primary: #461048;
+  --background-mobile-secondary: #3A123E;
+  --channeltextarea-background: #36144B;
+  --background-accent: #FFC107;
+  --background-modifier-hover: rgb(0,0,0,0.06);
+  --background-modifier-active: rgb(0,0,0,0.1);
+  --background-modifier-selected: rgb(0,0,0,0.12);
+  --deprecated-card-bg: rgb(30,18,31,0.39);
+  --background-floating: rgb(92,72,116,1);
+  --deprecated-quickswitcher-input-background: #5C4874;
+  --scrollbar-auto-thumb: #FFEB3B;
+  --scrollbar-auto-track: #867E35;
+  --scrollbar-thin-thumb: #FFEB3B;
+  --activity-card-background: #5C4874;
+  --background-message-hover: transparent;
+  --elevation-low: none;
+}
+
+.theme-light {
+  --background-primary: #23283D;
+  --background-secondary: #1E2233;
+  --background-secondary-alt: #191F2E;
+  --background-tertiary: #101320;
+  --background-accent: #7289DA;
+  --background-modifier-hover: #262B41;
+  --background-modifier-active: #262B41;
+  --header-primary: #fff;
+  --header-secondary: #B1B5B9;
+  --text-normal: #8E9297;
+}
+
+/* Any custom CSS below here */
+
+
